@@ -42,7 +42,7 @@ class PollMethodTests(TestCase):
        return Poll.objects.create(question=question,
            pub_date=timezone.now() + datetime.timedelta(days=days))
    
-   class PollViewTests(TestCase):
+class PollViewTests(TestCase):
        def test_index_view_with_no_polls(self):
            """
            If no polls exist, an appropriate message should be displayed.

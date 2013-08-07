@@ -13,6 +13,7 @@ To run this example, follow installation instruction:
 3. Install mysql-5.6.12-osx10.7-x86 2
 4. download and Install mysql-5.6.12-osx10.7-x86_64.dmg (http://blog.mclaughlinsoftware.com/2011/02/10/mac-os-x-mysql-install/)
 4.1. Install xcode app from app store and install command line tools from there
+4.2. create sampledb on your mysql server and grant priviledges to your database.
 4.2. Go to MySQL-python-1.2.4b4 and 
     run python setup.py build
     run python setup.py install
